@@ -1,17 +1,14 @@
 {
-  "name": "@ainize-team/ainize-ainetwork-gpt2-private-sdk",
-  "version": "0.1.0",
+  "name": "@ainize/ainize-ainetwork-gpt2-private-sdk",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/ainize-team/ainize-ainetwork-gpt2-private-sdk"
   },
   "dependencies": {
     "@ainblockchain/ain-util": "^1.1.6",
-    "lodash": "^4.17.21",
-    "firebase": "^7.14.3"
+    "firebase": "^7.14.3",
+    "lodash": "^4.17.21"
   },
-  "license": "UNLICENSED",
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
-  }
+  "license": "UNLICENSED"
 }
