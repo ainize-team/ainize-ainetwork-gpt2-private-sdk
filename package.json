@@ -1,6 +1,6 @@
 {
   "name": "@ainize/ainize-ainetwork-gpt2-private-sdk",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "repository": {
     "url": "https://github.com/ainize-team/ainize-ainetwork-gpt2-private-sdk"
