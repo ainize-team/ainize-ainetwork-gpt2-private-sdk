@@ -206,6 +206,20 @@ const GPT2FirebaseManager = {
       console.error(e);
     }
   },
+  async setHrc721TxHash(txHash, appName) {
+    try {
+      await gpt2Firebase.functions().httpsCallable('updateMintInfo')({
+        trainId: appName,
+        txHash,
+      });
+      await gpt2Firebase
+        .database()
+        .ref(`/teachable_ainft/hrc721_mint_pending_txs/${txHash}`)
+        .set(appName);
+    } catch (e) {
+      console.error(e);
+    }
+  },
 };
 
 module.exports = GPT2FirebaseManager;
